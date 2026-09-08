@@ -1,0 +1,14 @@
+name: repository-validation
+on:
+  push:
+  pull_request:
+jobs:
+  static-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate repository structure and integrity
+        run: python scripts/validate_repo.py

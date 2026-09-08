@@ -1,0 +1,42 @@
+# Organizer-private / competition secrets
+hidden_test.npz
+answer_key.csv
+COMMITMENT_PASSWORD.txt
+**/hidden_test.npz
+**/answer_key.csv
+**/COMMITMENT_PASSWORD.txt
+AQH_Organizer_Test/
+Soution/
+organizer_private/
+private_eval/
+
+# Hidden evaluation outputs
+*hidden*audit*.json
+*hidden*predictions*.csv
+*hidden*confusion*.csv
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / temp
+build/
+dist/
+tmp/
+temp/
+*.log
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
