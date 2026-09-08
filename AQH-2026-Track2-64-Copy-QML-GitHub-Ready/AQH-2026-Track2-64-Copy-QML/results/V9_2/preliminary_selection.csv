@@ -1,0 +1,4 @@
+model,quantum_params,weighted_low_copy_f1,complexity_penalty,preliminary_score
+M2_QCNN_LOCAL_6P,6,0.950374,0.006,0.944374
+M0_BELL_SHOT_CONSISTENT,1,0.935204,0.001,0.934204
+M1_GEN_BELL_3P,3,0.924527,0.003,0.921527

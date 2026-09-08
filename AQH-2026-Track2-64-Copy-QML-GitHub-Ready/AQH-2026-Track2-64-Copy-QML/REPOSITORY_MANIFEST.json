@@ -1,0 +1,24 @@
+{
+  "repository": "AQH-2026-Track2-64-Copy-QML",
+  "generated_utc": "2026-09-08T08:53:37.755960+00:00",
+  "submissions": {
+    "V9_2": {
+      "runtime_architecture": "Bell-QML incumbent",
+      "quantum_parameter_count": 1,
+      "status": "validated incumbent",
+      "source_zip_sha256": "c2119b4f78403a1fdbab6a8c9d7d852f0fb9e7a2fb308d0c1818628614293902",
+      "notebook_sha256": "1d2f157a9308551a88da0a1354ada44908d7e175ded0969d2fcf6efce62d5598"
+    },
+    "V12": {
+      "runtime_architecture": "QRNN_MINIMAL_1P",
+      "quantum_parameter_count": 1,
+      "status": "experimental direct public winner not promoted",
+      "deployment_decision": "KEEP_VALIDATED_INCUMBENT",
+      "source_zip_sha256": "603d6c775266e384d1545eabd346610e1760af5a5840e3e0b3b081384e44743f",
+      "notebook_sha256": "1445985beb65a70f44875fcf77caeaf9b61b5e870e21fe483b66dbe58f1d6a98"
+    }
+  },
+  "private_artifacts_included": false,
+  "v9_2_packaging_layout_corrected": true,
+  "v9_2_runtime_bytes_modified": false
+}
