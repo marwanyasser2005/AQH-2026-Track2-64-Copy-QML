@@ -1,0 +1,34 @@
+{
+  "version": "V8.1-final-frozen",
+  "runtime": {
+    "theta": -1.5707963267948966,
+    "fm_zz_threshold": 0.45,
+    "unknown_transverse_threshold": -0.2
+  },
+  "qml": {
+    "measurement": "alternating PBC nearest-neighbour Bell-QML",
+    "circuit_per_pair": [
+      "CNOT(control,target)",
+      "RY(theta) on control",
+      "Z measurement on both"
+    ],
+    "trainable_parameter_count": 1,
+    "size_independent": true,
+    "training_status": "optimized on development XXZ data and frozen for inference",
+    "decoded_observables_at_theta_minus_pi_over_2": [
+      "XX",
+      "YY",
+      "ZZ"
+    ]
+  },
+  "phase_head": {
+    "type": "shallow one-dimensional XXZ composite-likelihood prototype head",
+    "prototype_source": "dense XXZ development manifold generated from the public Hamiltonian specification; no hidden-test states, IDs, labels, answer key, or organizer secret",
+    "fallback": "sign of ZZ-(XX+YY)/2"
+  },
+  "unknown": {
+    "semantics": "outside the locked XXZ family only",
+    "type": "one-class physical compatibility gate",
+    "runtime_signal": "weak transverse correlation after FM exemption"
+  }
+}
