@@ -1,6 +1,0 @@
-model,N,one_qubit_gates_per_copy,two_qubit_gates_per_copy,depth_scaling,params,measurement
-M2_QCNN_LOCAL_6P,16,48,16,O(1) ideal brickwork,6,direct learned circuit
-QRNN_MINIMAL_1P,16,15,30,O(N),1,direct learned circuit
-SHARED_TTN_6P,16,60,45,O(log N) tree levels,6,direct learned circuit
-PROJECTED_QSVM,16,16,0,O(1) local basis rotations,0,X/Z
-LOW_COPY_SHADOW_KERNEL_SVM,16,16,0,O(1) local basis rotations,0,X/Y/Z
